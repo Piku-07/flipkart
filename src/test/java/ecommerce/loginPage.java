@@ -25,6 +25,7 @@ public class loginPage {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement fashion=driver.findElement(By.xpath("//span[text()='Fashion']"));
+		System.out.println("deveoped code");
 	
 		Actions a =new Actions(driver);
 		 a.moveToElement(fashion).perform(); 
